@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+<body>
+<h2>JavaScript while</h2>
+
+<button onclick="code()" > Klick </button> <br>
+<input id="field" maxlength="999999" size="100%"> <br> <br>
+<input id="param1" maxlength="50" size="50%"><br>
+<input id="param2" maxlength="3" size="10%"><br>
+<input id="param3" maxlength="3" size="10%"><br>
+<p id="list"></p> <br>
+<p id="list1"></p> <br>
+
+ 
+<script>
+function code(){
+ 
+var origin = field.value;
+var arr = "";
+var p1 = param1.value;
+var p2 = param2.value;
+var p3 = param3.value;
+var index = 1;              
+
+   if (origin != "") {
+
+while (index > 0) {                  
+   index = origin.indexOf(p1, index);
+   arr += index + ",";
+   index = index + 1;
+  }
+  
+  }else { alert("Please enter some text!");
+  }
+  
+var narr = arr.split(","); 
+    
+	narr.pop();
+    narr.pop();
+
+var result = "";
+var i;
+
+for (i=0; i < narr.length; i++) {
+    result += 
+	origin.slice(parseInt(narr[i])-parseInt(p2) , parseInt(narr[i])+parseInt(p3)) +
+	"<br>";
+  }
+
+    document.getElementById("list1").innerHTML = result;
+   
+   }
+
+</script>
+</body>
+</html>
