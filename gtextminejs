@@ -2,7 +2,7 @@
 
 <html>
 <body>
-<h2>JavaScript while</h2>
+<h2> Text mine 1.0 </h2>
 
 <button onclick="code()" > Klick </button> <br>
 <p> Copy the text here: </p><input id="field" maxlength="999999" size="100%"> <br> <br>
