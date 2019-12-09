@@ -35,9 +35,9 @@ while (index > 0) {
   }
   
 var narr = arr.split(","); 
-    
+	
 	narr.pop();
-    narr.pop();
+	narr.pop();
 
 var result = "";
 var i;
