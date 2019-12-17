@@ -23,6 +23,8 @@ var p2 = param2.value;
 var p3 = param3.value;
 var index = 1;              
 
+//first index the original text where the pattern starts
+
    if (origin != "") {
 
 while (index > 0) {                  
@@ -34,13 +36,16 @@ while (index > 0) {
   }else { alert("Please enter some text!");
   }
   
+//organize the array  
+  
 var narr = arr.split(","); 
-	
-	narr.pop();
-	narr.pop();
+narr.pop();
+narr.pop();
 
 var result = "";
 var i;
+
+//loop over the text and slice the parts with the preset parameters around the index
 
 for (i=0; i < narr.length; i++) {
     result += 
