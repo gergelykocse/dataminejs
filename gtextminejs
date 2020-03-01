@@ -4,10 +4,10 @@
 <body>
 <h2> Text mine 1.0 </h2>
 
-<button onclick="code()" > Klick </button> <br>
+<button onclick="code()" > Click </button> <br>
 <p> Copy the text here: </p><input id="field" maxlength="999999" size="100%"> <br> <br>
 <p> Search for keyword: </p> <input id="param1" maxlength="50" size="50%"><br>
-<p> Context of keyword </p><br> 
+<p> <b>Context of keyword</b> </p><br> 
 <p> Count of characters to display backwards from the beginning of the keyword: </p><input id="param2" maxlength="3" size="10%"><br>
 <p> Count of characters to display after the beginning of the keyword: </p><input id="param3" maxlength="3" size="10%"><br>
 <p id="list"> Result: </p> <br>
@@ -57,6 +57,7 @@ for (i=0; i < narr.length; i++) {
    
    }
 
+//
 </script>
 </body>
 </html>
