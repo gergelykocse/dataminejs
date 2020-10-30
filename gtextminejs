@@ -49,7 +49,7 @@ var i;
 
 for (i=0; i < narr.length; i++) {
     result += 
-	origin.slice(parseInt(narr[i])-parseInt(p2) , parseInt(narr[i])+parseInt(p3)) +
+	origin.slice(Number(narr[i])-Number(p2) , Number(narr[i])+Number(p3)) +
 	"<br>";
   }
 
