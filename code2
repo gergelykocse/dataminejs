@@ -1,0 +1,14 @@
+
+why did  I need search instead of IndexOf? I thin it was the usage of pattenrs/wildcards et - search is for regular expressions
+
+in below how to use wildcards etc?
+
+split the whole text to an array
+split the keyword to an array
+While indexof[keyword]/characters
+loop  in text
+if search(text) finds character1 check for character2 after it, then char 3 and so on if all matches, memorize the index of the beginning of the keyowrd
+If no match , continue text with character1 again until the end
+
+convert the index of an array(text) to indexing the actual text
+and from there go with the logic from ''code1''
