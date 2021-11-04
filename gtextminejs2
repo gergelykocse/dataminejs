@@ -1,7 +1,7 @@
 
 why did  I need search instead of IndexOf? I thin it was the usage of pattenrs/wildcards et - search is for regular expressions
 
-in below how to use wildcards etc? how to add levenstein distance ?
+in below how to use wildcards etc? how to add levensthein distance ?
 
 split the whole text to an array
 split the keyword to an array
