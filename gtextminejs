@@ -16,12 +16,12 @@
 <script>
 function code(){
  
-const origin = field.value;
-const arr = "";
-const p1 = param1.value;
-const p2 = param2.value;
-const p3 = param3.value;
-const index = 1;              
+let origin = field.value;
+let arr = "";
+let p1 = param1.value;
+let p2 = param2.value;
+let p3 = param3.value;
+let index = 1;              
 
 //first index the original text where the pattern starts
 
@@ -38,12 +38,12 @@ while (index > 0) {
   
 //organize the array  
   
-const narr = arr.split(","); 
+let narr = arr.split(","); 
 narr.pop();
 narr.pop();
 
-const result = "";
-const i;
+let result = "";
+let i;
 
 //loop over the text and slice the parts with the preset parameters around the index
 
