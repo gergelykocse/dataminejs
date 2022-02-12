@@ -12,3 +12,11 @@ If no match , continue text with character1 again until the end
 
 convert the index of an array(text) to indexing the actual text
 and from there go with the logic from ''code1''
+ 
+////
+use RegExp.prototype[@@search]() - also uses  IndexOf     or    RegExp.prototype[@@matchAll]()
+use more dynamic object elements
+use const instead of let where possible
+use object / functions for containing code in a nicer format
+use button.addEventListener('click', () instead of ''onclick'' 
+////
