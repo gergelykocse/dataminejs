@@ -14,9 +14,11 @@ convert the index of an array(text) to indexing the actual text
 and from there go with the logic from ''code1''
  
 ////
-use RegExp.prototype[@@search]() - also uses  IndexOf     or    RegExp.prototype[@@matchAll]()
-use more dynamic object elements
 use const instead of let where possible
 use object / functions for containing code in a nicer format
+use more dynamic UI field elements
 use button.addEventListener('click', () instead of ''onclick'' 
+use RegExp.prototype[@@search]() - also uses  IndexOf     or    RegExp.prototype[@@matchAll]()
+capture data on UI only, and send to a server and make the calculation at server side, log and store the data, then send the result back to the UI
+make the log searchable
 ////
