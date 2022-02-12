@@ -7,7 +7,7 @@ use button.addEventListener('click', () instead of ''onclick''
 use RegExp.prototype[@@search]() - also uses  IndexOf     or    RegExp.prototype[@@matchAll]()  
 add Levensthein distance or some error tolerance using regexp, ???'s (probably not*s)
 capture data on UI only, and send to a server and make the calculation at server side, log and store the data, then send the result back to the UI
-make the log searchable
+make the log searchable (Node.js ?)
 ////
 
 
