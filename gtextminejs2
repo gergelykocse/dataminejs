@@ -1,7 +1,17 @@
 
-why did  I need search instead of IndexOf? I thin it was the usage of pattenrs/wildcards et - search is for regular expressions
+////
+use const instead of let where possible
+use object / functions for containing code in a nicer format
+use more dynamic UI field elements
+use button.addEventListener('click', () instead of ''onclick'' 
+use RegExp.prototype[@@search]() - also uses  IndexOf     or    RegExp.prototype[@@matchAll]()  
+add Levensthein distance or some error tolerance using regexp, ???'s (probably not*s)
+capture data on UI only, and send to a server and make the calculation at server side, log and store the data, then send the result back to the UI
+make the log searchable
+////
 
-in below how to use wildcards etc? how to add levensthein distance ?
+
+why did  I need search instead of IndexOf? I thin it was the usage of pattenrs/wildcards et - search is for regular expressions
 
 split the whole text to an array
 split the keyword to an array
@@ -12,13 +22,4 @@ If no match , continue text with character1 again until the end
 
 convert the index of an array(text) to indexing the actual text
 and from there go with the logic from ''code1''
- 
-////
-use const instead of let where possible
-use object / functions for containing code in a nicer format
-use more dynamic UI field elements
-use button.addEventListener('click', () instead of ''onclick'' 
-use RegExp.prototype[@@search]() - also uses  IndexOf     or    RegExp.prototype[@@matchAll]()
-capture data on UI only, and send to a server and make the calculation at server side, log and store the data, then send the result back to the UI
-make the log searchable
-////
+
